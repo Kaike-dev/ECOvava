@@ -31,9 +31,9 @@ public class Mapas() {
        agentesRecomendados.put(6,"Jett,Sova,Breach,Cypher,Omen");
        agentesRecomendados.put(7,"Jett,Sova,Sage/Harbor,Killjoy,viper");
        agentesRecomendados.put(8,"Raze,Breach,Fade,Cypher or Vyse,Omen");
-       agentesRecomendados.put(9,"Jett,Sova,Kay/O or Tejo or Phoenix,");
-       agentesRecomendados.put(10, "");
-       agentesRecomendados.put(11, "");
+       agentesRecomendados.put(9,"Jett,Sova,Kay/O,Cypher or Vyse ,Astra,");
+       agentesRecomendados.put(10,"Raze,Skye,Tejo,Cypher,Astra,");
+       agentesRecomendados.put(11, "Raze,fade,Breach,Cypher,Omen");
 
 
     }
