@@ -1,8 +1,7 @@
 package org.example;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-public class Mapas() {
+public class Mapas {
    private final Map<Integer, String> mapas;
    private final Map<Integer, String> agentesRecomendados;
 
@@ -34,8 +33,18 @@ public class Mapas() {
        agentesRecomendados.put(9,"Jett,Sova,Kay/O,Cypher or Vyse ,Astra,");
        agentesRecomendados.put(10,"Raze,Skye,Tejo,Cypher,Astra,");
        agentesRecomendados.put(11, "Raze,fade,Breach,Cypher,Omen");
+     }
+    public String getMapa(int numero) {
+        return mapas.getOrDefault(numero, "Mapa não encontrado");
+        }
 
-
+    public String getAgentesRecomendados(int numero) {
+        return agentesRecomendados.getOrDefault(numero, "Nenhum agente recomendado para este mapa");
+        }
+    public List<String> getMapasOrdenados(){
+       List<String> listaMapas = new ArrayList<>(mapas.values());
+        Collections.sort(listaMapas);//Pra deixar de ordem alfabeticas
+        return listaMapas;
     }
 
 }
