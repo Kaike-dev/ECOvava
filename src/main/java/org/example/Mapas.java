@@ -21,6 +21,7 @@ public class Mapas {
        mapas.put(9,"Pearl");
        mapas.put(10,"Split");
        mapas.put(11,"Sunset");
+
        //Agentes recomendados
        agentesRecomendados.put(1,"Jett,Sova,Kay/O,Cypher,Astra");
        agentesRecomendados.put(2,"Jett,Sova,Kay/O,Killjoy,Omen");
@@ -46,6 +47,7 @@ public class Mapas {
         Collections.sort(listaMapas);//Pra deixar de ordem alfabeticas
         return listaMapas;
     }
+
 
 }
 
